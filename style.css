@@ -1,0 +1,64 @@
+tr:first-child {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+tr:nth-child(2n + 1) {
+  background-color: #f3f9ff;
+}
+
+table {
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.id {
+  width: 14px;
+}
+.name_col {
+  width: 284px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+td {
+  border: 1px solid grey;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.price {
+  width: 84px;
+}
+tr {
+  height: 34px;
+  border: 1px solid grey;
+}
+th {
+  height: 34px;
+  border: 1px solid grey;
+  font-size: 14px !important;
+  padding-left: 8px;
+}
+.pr {
+  font-size: 12px;
+  display: flex;
+}
+#pri {
+  display: flex;
+  height: 34px;
+  align-items: center;
+  font-size: 14px !important;
+  padding-left: 8px;
+}
+.tagch {
+  transform: rotate(0.5turn);
+}
+.color {
+  background-color: #ffddbd;
+}
